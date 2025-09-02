@@ -1,46 +1,70 @@
-# StudyNotion-Online learning system
+# Getting Started with Create React App
 
-StudyNotion is a comprehensive Ed-Tech platform (Learning Management System) that empowers students to purchase, manage, and engage with educational content while allowing instructors to create, upload, and sell courses. It includes features like course ratings, seamless learning management, and an intuitive user experience. 🚀
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![StudyNotion Screenshot]
+## Available Scripts
 
+In the project directory, you can run:
 
-## Workflow
-1. **User Signup:** Users can sign up as either a student or an instructor.
-2. **Student Features:**
-   - Purchase courses.
-   - Add courses to the cart.
-   - Access course content and watch lectures.
-   - Provide ratings and feedback on courses.
-3. **Instructor Features:**
-   - Create courses, add sections and subsections (upload lectures).
-   - Publish courses as drafts or make them publicly available.
-   - View generated income and enrolled student data on their dashboard.
-4. **Common Features:**
-   - Both instructors and students can edit their profiles.
+### `npm start`
 
-## Tech Stack
-### Frontend:
-- **React.js:** A JavaScript library for building user interfaces.
-- **Tailwind CSS:** A utility-first CSS framework for styling.
-- **Redux:** A state management tool for React applications.
-- **Axios:** A promise-based HTTP client for API requests.
-- **Chart.js:** A JavaScript library for data visualization.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Backend:
-- **Node.js:** A JavaScript runtime for server-side applications.
-- **Express.js:** A lightweight framework for building web applications.
-- **MongoDB:** A NoSQL database for data storage.
-- **Cloudinary:** A cloud-based service for managing media files.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Functionality
-1. **User Authentication & Authorization:** OTP-based authentication and password recovery.
-2. **Course Management:** Instructors can create, edit, and manage courses.
-3. **Payment Integration:** Razorpay integration for seamless transactions.
-4. **Cloud-Based Media Management:** Efficient handling of media files via Cloudinary.
-5. **Profile Management:** Users can view and edit their profile details.
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
